@@ -1,0 +1,9 @@
+LearningMode;
+SecRulesEnabled;
+#SecRulesDisabled;
+DeniedUrl "/etc/nginx/html/50x.html";
+CheckRule "$SQL >= 8" BLOCK;
+CheckRule "$RFI >= 8" BLOCK;
+CheckRule "$TRAVERSAL >= 4" BLOCK;
+CheckRule "$EVADE >= 4" BLOCK;
+CheckRule "$XSS >= 8" BLOCK;
