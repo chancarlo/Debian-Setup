@@ -1,5 +1,5 @@
 [DEFAULT]
-# ignoreip = 94.237.64.224 94.59.74.214
+# ignoreip =
 
 [nginx-auth-main]
 enabled = true
